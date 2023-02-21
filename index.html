@@ -9,28 +9,25 @@
    </head>
 
    <body>
-    <header>
-        <h1>Coding Quiz Challenge (:</h1>
-    </header>
-    <main>
-        <div id = "starter-screen">
-            <h2>Try to answer the following code related questions, within the time limit. Remember that incorrect answers will penalize your score/time by ten seconds!</h2>
-            <button id="startquiz-button" onclick = "startQuiz()">Start Quiz</button>
+        <div id = "high-scores">
+            <a href="/scores.html">See High Scores</a>
         </div>
-        <div id="quiz-screen" class = "hidden">
-            <h2 id="questions"></h2>
-            <ul id = "answers"></ul>
-            <div id ="timer">Time Remaing: <span id="time"></span></div>
+        <div id = "timer"></div>
+        <div id="quiz-container">
+            <h1 id= "questions">Coding Quiz Challenege (:</h1>    
+            <h2>Try to answer the following code-related questions within the time limit. Remember, incorrect answers will penalize your score and time by ten seconds</h2>   
+            <button class = "start-button">Start Quiz</button>         
+            <button class = "answer" style="display:nonel"></button>
+            <button class = "answer" style="display:nonel"></button>
+            <button class = "answer" style="display:nonel"></button>
+            <button class = "answer" style="display:nonel"></button>
+
+            <div id = "initials-form" style="display:none;">
+                <label for="initials">Enter your initials here: </label>
+                <input type="text" id ="initials" name="initials">
+                <button id ="submit-score">Submit</button>
+            </div>
         </div>
-        <div id="end-screen" class="hidden">
-            <h2>Congrats, you scored <span id="score"></span> points.</h2>
-            <form id = "initials-form">
-                <label for="initials">Enter your initials queen:</label>
-                <input type ="text" id="initials" name = "initials">
-                <button type="submit">Save</button>
-            </form>
-        </div>
-        </main>
         <script src ="assets/script.js"></script>
    </body>
 </html>
