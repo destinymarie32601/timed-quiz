@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang = "en">
    <head>
-    <meta charset = "UTF -8">
+    <meta charset = "UTF-8">
     <meta http-equiv="X-UA-Compatible" content = "IE=edge">
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <title>Timed Multiple Choice Quiz</title>
@@ -9,10 +9,29 @@
    </head>
 
    <body>
-
-
-
+    <header>
+        <h1>Coding Quiz Challenge (:</h1>
+    </header>
+    <main>
+        <div id = "starter-screen">
+            <h2>Try to answer the following code related questions, within the time limit. Remember that incorrect answers will penalize your score/time by ten seconds!</h2>
+            <button id="startquiz-button" onclick = "startQuiz()">Start Quiz</button>
+        </div>
+        <div id="quiz-screen" class = "hidden">
+            <h2 id="questions"></h2>
+            <ul id = "answers"></ul>
+            <div id ="timer">Time Remaing: <span id="time"></span></div>
+        </div>
+        <div id="end-screen" class="hidden">
+            <h2>Congrats, you scored <span id="score"></span> points.</h2>
+            <form id = "initials-form">
+                <label for="initials">Enter your initials queen:</label>
+                <input type ="text" id="initials" name = "initials">
+                <button type="submit">Save</button>
+            </form>
+        </div>
+        </main>
+        <script src ="assets/script.js"></script>
    </body>
-
-   <script src ="assets/script.js"></script>
 </html>
+
