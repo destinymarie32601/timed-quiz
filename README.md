@@ -7,7 +7,7 @@ The motive of this project was to create a multiple choice timed quiz that allow
 
 Deployed Application URL : https://destinymarie32601.github.io/timed-quiz/
 
-Github Repository : 
+Github Repository : https://github.com/destinymarie32601/timed-quiz/blob/main/README.md
 
 ##Usage
 
