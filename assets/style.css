@@ -58,12 +58,45 @@ h2 {
     color:rgb(56, 13, 30);
 }
 #high-scores-contatiner {
-    position: absolute;
     display: flex;
     flex-direction:column;
     justify-content: center;
     align-items: center;
-    height:100vh;
+    height:1000vh;
+    font-size: 19px;
+    background-color:rgb(235, 41, 128);
 }
-
-
+.highscore-buttons {
+    display:flex;
+    padding: 10px;
+    margin: 10px;
+    flex-direction: row;
+    justify-content: center;
+}
+.start-button {
+    background-color: rgb(233, 103, 148);
+    color: rgb(237, 237, 233);
+    font-size: 20px;
+    text-shadow: 2px 4px 10px rgb(91, 13, 64), 0 0 10px rgba(228, 130, 130, 0.5);
+    font-style: oblique;
+    display:flex;
+    padding: 8px;
+    margin: 1px;
+    flex-direction: row;
+    justify-content: center;
+    width: 250px;
+    height: 45px;
+    border: 2px solid rgb(226, 242, 152);
+}
+#submit-score {
+    background-color: rgb(233, 103, 148);
+    color: rgb(237, 237, 233);
+    font-size: 20px;
+    text-shadow: 2px 4px 10px rgb(91, 13, 64), 0 0 10px rgba(228, 130, 130, 0.5);
+    font-style: oblique;
+    padding: 5px;
+    margin: 10px;
+    width: 90px;
+    height: 40px;
+    border: 2px solid rgb(226, 242, 152);
+}
