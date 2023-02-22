@@ -97,7 +97,6 @@ function startQuiz() {
 var startButton = document.querySelector(".start-button");
 startButton.addEventListener("click", startQuiz);
 
-
 startButton.addEventListener("click", function() {
     header2.style.display = "none"; //making the header2 disappear once the start button is clicked
     startButton.style.display = "none"; 
